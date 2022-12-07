@@ -1,0 +1,16 @@
+    $primary-color: gray;
+    $accent-color: orange;
+    $text-color: white;
+
+    $font-weights:(
+        'regular': 400,
+        'medium': 500,
+        'bold': 700
+    );
+
+
+body{
+    background: $primary-color;
+    font-weight: map-get($font-weights, bold );
+    color: $text-color;
+}
